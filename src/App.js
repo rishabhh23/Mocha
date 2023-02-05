@@ -7,7 +7,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen text-white from-black to-purple-600 bg-gradient-to-r">
       <div className="gradient-bg-welcome">
         <Navbar />
         <Welcome />

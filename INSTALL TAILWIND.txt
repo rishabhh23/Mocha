@@ -1,0 +1,9 @@
+1.npm i -D tailwindcss postcss autoprefixer
+
+2.npx tailwindcss init -p
+
+3.paste the config path in tailwind.config.js
+
+4.add the three directives in app.css 
+
+5. type "npm run start"
