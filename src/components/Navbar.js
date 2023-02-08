@@ -13,7 +13,12 @@ function Navbar() {
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4 from-black to-purple-600 bg-gradient-to-r full">
       <div className="md:flex-[0.5] flex-initial justify-center items-center">
-        <img src={logo} alt="logo" className="w-32 cursor-pointer " />
+        {/* <img src={logo} alt="logo" className="w-32 cursor-pointer " />
+         */}
+        <h1 className="text-white text-3xl text-purple-500 italic hover:not-italic font-bold">
+          {" "}
+          Mocha{" "}
+        </h1>
       </div>
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {["Market", "Exchange", "Tutorials", "Wallets"].map((item, index) => (
