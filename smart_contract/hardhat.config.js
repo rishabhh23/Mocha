@@ -1,13 +1,10 @@
-import * as dotenv from "dotenv";
-
-dotenv.config();
-
-const GOERLI_RPC_URL = process.env.GOERLI_RPC_URL;
+require("@nomiclabs/hardhat-waffle");
 
 const HardhatUserConfig = {
+  solidity: "0.8.0",
   networks: {
     goerli: {
-      url: GOERLI_RPC_URL,
+      url: "https://eth-goerli.g.alchemy.com/v2/_DdgKq4f_bZvMVmT8Z3NphU0MVW8F4zq",
       accounts: [
         "eccc28c7eb9e8a099996fc71eab170589413525518199712d3e8b29b07badf7c",
       ],
